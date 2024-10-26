@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/gymhub/static/css/main.db9ae23b.css",
+    "main.js": "/gymhub/static/js/main.de569c84.js",
+    "static/js/453.64512fd7.chunk.js": "/gymhub/static/js/453.64512fd7.chunk.js",
+    "static/media/banner.png": "/gymhub/static/media/banner.e9ce8d0e3f656db9c423.png",
+    "static/media/body.png": "/gymhub/static/media/body.bcc4ab65cb64b8150d01.png",
+    "static/media/aboutliftimg.png": "/gymhub/static/media/aboutliftimg.725505cbc1e34bf2812c.png",
+    "static/media/review.png": "/gymhub/static/media/review.3ae06ba1050bebabf61e.png",
+    "static/media/aboutimg.png": "/gymhub/static/media/aboutimg.981b6e8d83a9d7659930.png",
+    "static/media/training.png": "/gymhub/static/media/training.968bedf5fa23334a2e99.png",
+    "static/media/ladylift.png": "/gymhub/static/media/ladylift.b2e69da2adb336a5143b.png",
+    "static/media/heavylift.png": "/gymhub/static/media/heavylift.0571ac2b0cb457011c03.png",
+    "static/media/platestraining.png": "/gymhub/static/media/platestraining.e5992cdd46e5d8e22bd0.png",
+    "static/media/redhairgirl.png": "/gymhub/static/media/redhairgirl.ca6bfc0825432669d576.png",
+    "static/media/exercise.png": "/gymhub/static/media/exercise.7e1051a3bb11140331d7.png",
+    "static/media/happytrainer.png": "/gymhub/static/media/happytrainer.17016b193f7515b68c36.png",
+    "static/media/nike.png": "/gymhub/static/media/nike.8d9d732f88843c0b1cd4.png",
+    "static/media/muscleman.png": "/gymhub/static/media/muscleman.673aa100765ee08a5c0d.png",
+    "static/media/trainerhead.png": "/gymhub/static/media/trainerhead.673aa100765ee08a5c0d.png",
+    "static/media/shoes.png": "/gymhub/static/media/shoes.041d88b76344c36b60c3.png",
+    "static/media/dumbells.png": "/gymhub/static/media/dumbells.09b5ff4926e7ca8a0e08.png",
+    "static/media/proteinpowder.png": "/gymhub/static/media/proteinpowder.47c06933d26cdd068549.png",
+    "static/media/headphone.png": "/gymhub/static/media/headphone.5ed398c6d70e41f25ee9.png",
+    "static/media/bottle.png": "/gymhub/static/media/bottle.477719f161e1bb9f1428.png",
+    "index.html": "/gymhub/index.html",
+    "main.db9ae23b.css.map": "/gymhub/static/css/main.db9ae23b.css.map",
+    "main.de569c84.js.map": "/gymhub/static/js/main.de569c84.js.map",
+    "453.64512fd7.chunk.js.map": "/gymhub/static/js/453.64512fd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db9ae23b.css",
+    "static/js/main.de569c84.js"
+  ]
+}
