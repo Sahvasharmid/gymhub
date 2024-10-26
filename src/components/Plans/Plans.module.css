@@ -1,0 +1,31 @@
+.subcontainer{
+    width: 60%;
+    margin: auto;
+   
+}
+.padding{
+    padding-top: 4rem;
+}
+.cardrow{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.btnwhite{
+    background-color:var(--text-color);
+
+  color: var(--primary-color);
+}
+
+@media (max-width:  767.98px){
+    .subcontainer{
+        width: 90%;
+        margin: auto;
+    }
+    .cardrow{
+        flex-direction: column;
+    }
+    
+}

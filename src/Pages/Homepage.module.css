@@ -1,0 +1,92 @@
+
+.banner{
+    
+    background-image: url('../assets/banner.png');
+    width: 100%;
+    height: 130vh; /* Adjust as needed */
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+ 
+  }
+  .section1{
+    width: 40%;
+  }
+.whatsapp-button {
+    position: absolute;
+    right: 20px; /* Adjust this value for spacing from the right */
+    bottom: 20px; /* Adjust this value for spacing from the bottom */
+    background-color: #25D366; /* WhatsApp green */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .fluid{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .sociallinks {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+
+  
+  
+}
+
+.sociallinks a {
+
+  background-color: var(--card-color);
+    text-decoration: none;
+    color: #333;            /* Customize link color */
+    padding: 8px 8px;      /* Adjust padding as needed */
+    border-radius: 5px;
+    transition:0.3s;
+    margin-bottom: 0px;
+}
+
+.sociallinks a:hover {
+    background: #f0f0f0;    /* Optional hover effect */
+}
+
+/* Media queries for responsiveness */
+@media (max-width:  575.98px) {
+    .banner {
+        height: 70vh; /* Keep it full height on mobile */
+ /* Ensure full image visibility */
+    }
+
+    .section1{
+      width: 100%;
+      padding-top: 50px;
+    }
+    .fluid{
+      padding-top: 50px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+.banner{
+  height: 100vh;
+}
+.section1{
+  width: 60%;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .banner{
+    height: 60vh;
+  }
+  .section1{
+    width: 100%;
+  }
+}

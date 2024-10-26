@@ -1,0 +1,118 @@
+.padding{
+    padding-top: 4rem;
+}
+.fitcontainer{
+    width: 50%;
+
+padding: 10px;
+  
+}
+.fitimg{
+    width: 50%;
+
+    position: relative;
+   
+}
+.fithead{
+    padding-bottom: 10px;
+    width: 50%;
+}
+
+
+.sublist{
+
+display: flex;
+justify-content: flex-start;
+padding-bottom: 20px;
+}
+
+.left{
+   
+    width: 55%; 
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    top: 55%;
+    transform: translateY(-50%);
+  
+}
+.topimg{
+    background-image: url('../../assets/ladylift.png');
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 40vh;
+}
+.botimg{
+    background-image: url('../../assets/exercise.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 40vh;
+    
+}
+
+.right{
+    background-image: url('../../assets/body.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+height: 80vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    transform: translateX(17%);
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .topimg{
+        height: 22vh;
+    }
+    .botimg{
+        height: 22vh;
+    }
+    .right{
+        width: 90%;
+        height: 50vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .topimg{
+        height: 20vh;
+    }
+    .botimg{
+        height: 20vh;
+    }
+    .right{
+        width: 90%;
+        height: 40vh;
+    }
+}
+
+@media (max-width: 767.98px){
+   .flex{
+    flex-direction: column-reverse;
+   }
+    .fitcontainer{
+        width: 100%;
+        padding-top: 4rem;
+    }
+    .fitimg{
+       width: 100%;
+    }
+    .topimg{
+        height: 20vh;
+    }
+    .botimg{
+        height: 20vh;
+    }
+    .right{
+        width: 90%;
+        height: 40vh;
+    }
+    .fithead{
+        width: 100%;
+    }
+}

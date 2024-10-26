@@ -1,0 +1,34 @@
+.subcontainer{
+    width: 50%;
+    
+    margin: auto;
+ }
+ .cardrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 20px;
+    flex-wrap: wrap;
+
+   
+   
+}
+.padding{
+    padding-top: 4rem;
+}
+.cardbackground{
+    background-image: url('../../assets/trainerhead.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 40vh;
+  
+}
+@media (max-width:  575.98px){
+    .subcontainer{
+        width: 90%;
+    }
+    .cardrow{
+        flex-direction: column;
+    }
+}

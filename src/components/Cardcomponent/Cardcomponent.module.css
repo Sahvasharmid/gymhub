@@ -1,0 +1,29 @@
+.cardbody{
+    padding:20px;
+}
+.cardbody img{
+    padding-bottom: 10px;
+   
+    
+}
+
+.cardtitle{
+    padding-bottom: 10px;
+    
+}
+.card{
+    background-color:var(--card-color)!important;
+border-radius: 10px;
+width: 33%;
+
+
+}
+@media (max-width: 575.98px){
+    .card{
+        width: 100%;
+      
+    }
+    .card:not(:last-child){
+        margin-bottom: 10px;
+    }
+}

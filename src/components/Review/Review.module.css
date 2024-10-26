@@ -1,0 +1,111 @@
+.subcontainer{
+    width: 50%;
+    
+    margin: auto;
+ }
+ .review{
+    display: flex;
+width: 100%;
+flex-wrap: wrap;
+gap: 20px;
+
+ }
+ .padding{
+   padding-top: 4rem;
+ }
+ .reviewimage {
+  border: 1px solid green;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 68vh;
+    width: 30%;
+  
+    border-radius: 5%; /* This makes the element circular */
+    /* Ensures child elements (like images) do not overflow */
+}
+
+/* Remove the img styles since the parent div will handle the rounding */
+.reviewimage img {
+ height: 100%;
+ width: 100%;   /* Ensure the imahge fills the parent */
+    object-fit: cover; /* Maintain aspect ratio while covering the div */
+    border-radius: 20px; /* This can remain if you want rounded corners for the image specifically */
+}
+
+ .reviewlist{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+
+ }
+ .subscription{
+   display: flex;
+   background-color: var(--card-color);
+   border-radius: 20px;
+ }
+ .subscribe{
+   width: 60%;
+  
+ }
+ 
+ .pillinput {
+   width: 300px;
+   padding: 10px 20px;
+   border-radius: 50px;
+  
+   border: 1px solid #ccc;
+   background-color: var(--background-color);
+   outline: none;
+   font-size: 16px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
+ .reviewbtn{
+  position: relative;
+  height: 20vh;
+ }
+ .primarybtn{
+  position: absolute;
+  transform: translateX(90%);
+ }
+ @media (min-width: 768px) and (max-width: 1200px){
+  .reviewlist{
+    width: 60%;
+
+  }
+  .reviewimage{
+    height: 48vh;
+    width: 38%;
+  }
+  .review{
+    gap: 10px;
+  }
+ }
+ @media (max-width:  768.98px){
+   .subcontainer{
+     width: 90%;
+     margin: auto;
+   }
+  .reviewimage{
+    width: 100%;
+    height: 50vh;
+  }
+.reviewlist{
+  width: 100%;
+}
+.reviewbtn{
+  height: 4vh;
+  margin-bottom: 10px;
+  margin-right: -15px;
+}
+.subscription{
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+.subscribe{
+  width: 100%;
+}
+.email{
+  margin-bottom: 10px;
+}
+}

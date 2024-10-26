@@ -1,0 +1,103 @@
+.aboutsection{
+    width: 50%;
+    padding: 0.5rem;
+    
+}
+.aboutimg{
+    width: 50%;
+  
+position: relative;
+
+}
+.aboutus{
+  display: flex;
+  flex-wrap: wrap;
+}
+.left {
+    background-image: url('../../assets/aboutimg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 35vh;
+    width: 60%; 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+
+    /* For visibility of left element */
+  }
+  
+  .right {
+    background-image: url('../../assets/aboutliftimg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    transform: translateX(12%);
+  }
+  
+
+  
+  @media (min-width: 768px) and (max-width: 980px){
+.right{
+  height: 20vh;
+  
+}
+.left{
+  height: 12vh;
+  transform: translateY(-100%);
+}
+
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+   .aboutus{
+    flex-direction: column-reverse;
+   }
+   .aboutsection{
+    width: 100%;
+   }
+   .aboutimg{
+    width: 100%;
+   }
+   .left{
+    height: 25vh;
+ 
+  }
+  .right{
+    
+    height: 35vh;
+    width:100%;
+  }
+  }
+
+
+    @media (max-width: 575.98px){
+    
+      .left{
+        height: 15vh;
+     
+      }
+      .right{
+        
+        height: 35vh;
+        width: 90%;
+      }
+      .aboutimg{
+        width: 100%;
+        margin: auto;
+      }
+      .aboutus{
+        flex-direction: column-reverse;
+      }
+      .aboutsection{
+        width: 100%;
+        padding: 0px;
+        
+      }
+      
+    }

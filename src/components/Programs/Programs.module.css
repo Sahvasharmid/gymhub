@@ -1,0 +1,67 @@
+.padding{
+    padding-top: 4rem;
+}
+.subcontainer{
+   width: 50%;
+   
+   margin: auto;
+}
+.card{
+    background-color:var(--card-color)!important;
+border-radius: 10px;
+
+
+}
+.flexcontainer{
+    width: 24%;
+
+}
+.card :hover{
+    background-color: var(--secondary-color);
+}
+.cardrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.cardbody{
+    padding:20px;
+}
+.cardbody img{
+    padding-bottom: 10px;
+    
+}
+
+.cardtitle{
+    padding-bottom: 10px;
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .subcontainer{
+        width: 100%;
+    }
+    .flexcontainer{
+        width: 48%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+ .subcontainer{
+    width: 100%;
+ }
+ .flexcontainer{
+    width: 48%;
+ }
+  }
+/* Rectangle 11 */
+@media (max-width:  575.98px){
+    .subcontainer{
+        width: 90%;
+    }
+    .cardrow{
+        flex-direction: column;
+    }
+    .flexcontainer{
+        width: 100%;
+    }
+}

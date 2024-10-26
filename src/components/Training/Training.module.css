@@ -1,0 +1,22 @@
+.subcontainer{
+    width: 60%;
+    margin: auto;
+   
+}
+.padding{
+    padding-top:4rem ;
+}
+.cardrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+@media (max-width: 527px){
+    .subcontainer{
+        width: 90%;
+    }
+    .cardrow{
+        flex-direction: column;
+    }
+}

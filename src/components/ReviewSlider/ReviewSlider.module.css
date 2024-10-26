@@ -1,0 +1,177 @@
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  .title {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .underline {
+    height: 0.25rem;
+    width: 5rem;
+    background: var(--clr-primary-5);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container {
+    width: 80vw;
+    max-width: var(--fixed-width);
+  }
+  .review {
+    background: var(--clr-white);
+    padding: 1.5rem 2rem;
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+    transition: var(--transition);
+    text-align: center;
+    
+  }
+  .review:hover {
+    box-shadow: var(--dark-shadow);
+  }
+  .img-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+  .person-img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+  }
+  .quote-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    transform: translateY(25%);
+    background: var(--clr-primary-5);
+    color: var(--clr-white);
+  }
+  .img-container::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--primary-color);
+    position: absolute;
+    top: -0.25rem;
+    right: -0.5rem;
+    border-radius: 50%;
+  }
+  .author {
+    margin-bottom: 0.25rem;
+    text-align: left;
+  }
+  .job {
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-size: 0.85rem;
+  }
+  .info {
+    margin-bottom: 0.75rem;
+    font-size: 12px;
+    text-align: left;
+  }
+  .prevbtn,
+  .nextbtn {
+    color: var(--primary-clr);
+    font-size: 1.25rem;
+    background: transparent;
+    border-color: transparent;
+    margin: 0 0.5rem;
+    transition: var(--transition);
+    cursor: pointer;
+  }
+  .prevbtn:hover,
+  .nextbtn:hover {
+    color: var(--clr-primary-5);
+  }
+  .random-btn {
+    margin-top: 0.5rem;
+    background: var(--clr-primary-10);
+    color: var(--clr-primary-5);
+    padding: 0.25rem 0.5rem;
+    text-transform: capitalize;
+    border-radius: var(--radius);
+    transition: var(--transition);
+    border-color: transparent;
+    cursor: pointer;
+  }
+  .random-btn:hover {
+    
+    color: var(--primary-clr);
+  }
+  
+  /* ReviewSlider.css */
+.names-list {
+     /* Take up 1 part of the flex container */
+     margin-top: 1rem;
+     text-align: left; /* Align text to the left */
+     display: flex;
+     flex-direction: column; /* /* Add space between the names and review */
+   /* Enable vertical scrolling for the names list */
+   /* Stack names vertically */
+  }
+  
+  .nameitem {
+   padding: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 12px;
+  }
+  
+  .name-item:hover {
+    color: black; /* Highlight on hover */
+  }
+  
+  .highlight {
+    color: var(--primary-color); /* Highlighted color for the active name */
+    /* Change text color for contrast */
+  }
+  .sublist{
+    width: 70%;
+    flex: 2;
+    flex-direction: column;
+  }
+  .divider {
+    width: 2px; /* Adjust the width of the divider */
+    background-color: #ddd; /* Divider color */
+     /* Adjust the height to match the review text */
+    margin: 0 10px; /* Space around the divider */
+    align-self: stretch; /* Stretch to match the height of the tallest section */
+  }
+/* Line 5 */
+
+
+
+.reviewText {
+    flex: 1; 
+    padding: 10px;
+    border-radius: 10px; 
+    margin-bottom: 10px; 
+    
+    background-color: var(--card-color)
+  }
+  .text{
+    height: 130px;
+  }
+  @media(max-width: 768.98px){
+.review{
+  padding: 0;
+}
+.text{
+  overflow-y: scroll;
+}
+  }

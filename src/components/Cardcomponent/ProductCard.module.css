@@ -1,0 +1,110 @@
+.cardbody{
+    padding-top:20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+.cardbody img{
+    padding-bottom: 10px;
+   
+    
+}
+
+.card{
+    background-color:var(--card-color)!important;
+border-radius: 20px;
+flex:1 1  32%;
+
+
+}
+.cardtext{
+    font-size: 12px;
+}
+.cardflex{
+    margin: 10px;
+    flex: 1;
+}
+.cardimgtop{
+  
+    background-size: 'contain';
+   background-position: center;
+  height:40vh;
+border-radius: 25px;
+    background-color:  var(--background-color);
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+.button{
+  width: 60%;
+}
+.btn{
+  width: 100%;
+  font-size: 10px;
+}
+
+.flexitem1,.flexitem2{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+.cardtext{
+  margin-bottom: 0px;
+}
+.cardtitle{
+  margin-bottom: 5px;
+  width: 80%;
+ 
+ 
+}
+.cardtitle2{
+  width: 20%;
+
+
+}
+.description{
+  width: 60%;
+ 
+}
+.button{
+  width: 40%;
+  
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+  .cardimgtop{
+    height: 25vh;
+  }
+}
+@media (max-width:  767.98px){
+  .cardimgtop{
+    height: 20vh;
+  }
+  .card{
+    flex: 1 1 48%;
+    margin-bottom: 10px;
+  }
+  .cardtitle{
+    width: 80%;
+  
+    
+  }
+  .cardtitl2{
+    width: 20%;
+  }
+  .cardtitle h6,.cardtitle2 h6{
+    font-size: 10px;
+  }
+  .description{
+    width: 50%;
+  }
+  .button{
+    width: 50%;
+  }
+  .cardtext{
+    font-size: 7px;
+  }
+  .btn{
+    font-size: 7px;
+  }
+}
